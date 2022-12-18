@@ -1,0 +1,85 @@
+{
+  "spots": [
+    {
+      "id": 0,
+      "name": "春室",
+      "intro": "「春室」真的超級美‼️ 這間在新竹公園內~ 咖啡廳結合玻璃工藝館 一樓可以體驗吹玻璃，咖啡廳在3樓喔~ 我真的是走到門口就驚豔 光線有夠讚 再來室內靠窗的座位也是美到爆炸(๑ᵒ̴̶̷͈᷄ᗨᵒ̴̶̷͈᷅) 這個點我大推！難怪之前剛開幕就爆紅！"
+    },
+    {
+      "id": 1,
+      "name": "新竹動物園",
+      "intro": "「新竹動物園」也是新竹公園的一部分～ 門票50元 刷悠遊卡、一卡通就可進去囉！是台灣最古老的動物園 裡面還保有許多古蹟 整個園區不大 全部逛完大概一個小時 這裡真的是很適合帶小孩來放風的地方耶"
+    },
+    {
+      "id": 2,
+      "name": "李克承博士故居",
+      "intro": "位在新竹大遠百旁的日式古蹟咖啡廳 一進去有種到日本的錯覺 環境非常放鬆 我很喜歡~ 生吐司蠻Q彈的 山形吐司外型可愛100分🍞 是間適合姊妹、情侶來的咖啡廳🧡"
+    },
+    {
+      "id": 3,
+      "name": "蔦屋書店",
+      "intro": "今年剛開的超美書店.ᐟ.ᐟ 地點就位在新竹湳雅大魯閣呦～ 挑高3層樓的空間設計 真的好壯觀 如果想看書也有許多位置可以坐呦～另外店內還有 WIRED CHAYA 茶屋 聽說\"甜甜圈鬆餅義式冰淇淋\"好吃耶!"
+    },
+    {
+      "id": 4,
+      "name": "碗容奶奶家",
+      "intro": "碗容奶奶家原是在蝦皮上經營 今年在新竹開了實體店面 根本餐具控的天堂 餐具都好漂亮啊！！在家用超有儀式感的呀👍🏻 真的太好買 每個人幾乎都提一大帶出來🤣 店門口也很可愛 除了買餐具還可以在們拍拍照呦~"
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "userName": "admin@hexschool.com",
+      "password": "hex12345",
+      "fav": []
+    },
+    {
+      "id": 1,
+      "userName": "19940818jillian@gmail.com",
+      "password": "natalie329_",
+      "fav": []
+    },
+    {
+      "email": "admin@hexscholl",
+      "password": "$2a$10$mv9SM3A0MI.cikq5pM9Z4eKixtxguIkSxnzn/X9Us6khimKWe553O",
+      "fav": [],
+      "id": 2
+    },
+    {
+      "email": "19940818jillian@gmail.com",
+      "password": "$2a$10$oI/ju6mVOvn.fLhx3pyQOO7JBNFpUvYir1OeLgMWHlpWpktNAdpuO",
+      "fav": [],
+      "id": 3
+    },
+    {
+      "email": "jilllee@hsinzhu.com",
+      "password": "$2a$10$JKN0M1HWmwa606a6Pp2WhOgXV2QQ0ZZcJcJNcf4txwjTdF4/tm9Zm",
+      "fav": [],
+      "id": 4
+    },
+    {
+      "email": "jilllee@tainan.com",
+      "password": "$2a$10$BDtWJogyIpC3Hgwv4.35mOwa47b9l/LrFwK4IykirirP2de/sqv26",
+      "fav": [],
+      "id": 5
+    },
+    {
+      "email": "jilllee@taichung.com",
+      "password": "$2a$10$7HpnjQBedHDO1.NktktSBO/8M38yZw4GpD91LapEBEnUzzIk8F/Z2",
+      "fav": [],
+      "id": 6
+    },
+    {
+      "email": "jilllee@kaoxiong.com",
+      "password": "$2a$10$9zeubjvwdvtI8Lj8WHGxEuKrmKXGL9r6drGtvttJq7n0P6XhUqFo2",
+      "fav": [],
+      "id": 7
+    },
+    {
+      "email": "jilllee@miaoli.com",
+      "password": "$2a$10$pK944nj4sPSiEQGKXeCj5OVyu8eXdh7lKELj7Bnw1wM4UW8LSi/a.",
+      "fav": [],
+      "id": 8
+    }
+  ]
+}

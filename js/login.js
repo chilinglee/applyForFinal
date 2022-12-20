@@ -3,18 +3,40 @@ function signIn() {
     let password = document.querySelector("#inputPassword").value;
 
     if (email && password) {
-        axios.post("http://localhost:3000/login", {
+        axios.post("https://apply-for-final.onrender.com/login", {
             "email": email,
             "password": password
         }).then(res => {
-            //alert("Success!");
-            window.location.assign("./homepage.html");
-            localStorage.set("accessToken",
-                res.data.accessToken)
+            localStorage.setItem("accessToken",
+                res.data.accessToken);
+            localStorage.setItem("userId",
+                res.data.user.id);
+            let url = "";
+            if (res.data.user.role === "admin") {
+                url = "./background.html";
+            } else {
+                url = "./homepage.html";
+            }
+            Swal.fire({
+                icon: "success",
+                title: "Sucess!",
+                timer: 1000,
+                timerProgressBar: true,
+                showConfirmButton: false
+            }).
+                then((next) => {
+                    window.location.assign(url);
+                })
         }).catch(err => {
-            alert(err.response.data);
+            Swal.fire({
+                icon: "error",
+                title: err
+            });
         })
     } else {
-        alert("Please enter your email & password.");
+        Swal.fire({
+            icon: "error",
+            title: "Please enter your email & password."
+        });
     }
 }

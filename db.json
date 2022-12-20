@@ -28,58 +28,53 @@
   ],
   "users": [
     {
-      "id": 0,
-      "userName": "admin@hexschool.com",
-      "password": "hex12345",
-      "fav": []
-    },
-    {
-      "id": 1,
-      "userName": "19940818jillian@gmail.com",
-      "password": "natalie329_",
-      "fav": []
-    },
-    {
-      "email": "admin@hexscholl",
+      "email": "admin@hexschool",
       "password": "$2a$10$mv9SM3A0MI.cikq5pM9Z4eKixtxguIkSxnzn/X9Us6khimKWe553O",
-      "fav": [],
-      "id": 2
+      "id": 0,
+      "role": "admin",
+      "fav": []
     },
     {
       "email": "19940818jillian@gmail.com",
       "password": "$2a$10$oI/ju6mVOvn.fLhx3pyQOO7JBNFpUvYir1OeLgMWHlpWpktNAdpuO",
-      "fav": [],
-      "id": 3
+      "id": 1,
+      "role": "admin",
+      "fav": []
     },
     {
       "email": "jilllee@hsinzhu.com",
       "password": "$2a$10$JKN0M1HWmwa606a6Pp2WhOgXV2QQ0ZZcJcJNcf4txwjTdF4/tm9Zm",
-      "fav": [],
-      "id": 4
+      "id": 2,
+      "role": "normal",
+      "fav": []
     },
     {
       "email": "jilllee@tainan.com",
       "password": "$2a$10$BDtWJogyIpC3Hgwv4.35mOwa47b9l/LrFwK4IykirirP2de/sqv26",
-      "fav": [],
-      "id": 5
+      "id": 3,
+      "role": "normal",
+      "fav": []
     },
     {
       "email": "jilllee@taichung.com",
       "password": "$2a$10$7HpnjQBedHDO1.NktktSBO/8M38yZw4GpD91LapEBEnUzzIk8F/Z2",
-      "fav": [],
-      "id": 6
+      "id": 4,
+      "role": "normal",
+      "fav": []
     },
     {
       "email": "jilllee@kaoxiong.com",
       "password": "$2a$10$9zeubjvwdvtI8Lj8WHGxEuKrmKXGL9r6drGtvttJq7n0P6XhUqFo2",
-      "fav": [],
-      "id": 7
+      "id": 5,
+      "role": "normal",
+      "fav": []
     },
     {
       "email": "jilllee@miaoli.com",
       "password": "$2a$10$pK944nj4sPSiEQGKXeCj5OVyu8eXdh7lKELj7Bnw1wM4UW8LSi/a.",
-      "fav": [],
-      "id": 8
+      "id": 6,
+      "role": "normal",
+      "fav": []
     }
   ]
 }

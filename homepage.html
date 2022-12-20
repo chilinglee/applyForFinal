@@ -27,12 +27,23 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto" id="unlogin">
                     <li class="nav-item">
                         <a class="nav-link btn btn-outline-success me-2" aria-current="page" href="./login.html">登入</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn btn-primary text-light" href="./register.html">免費註冊</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto d-none" id="login">
+                    <li class="nav-item">
+                        <a class="nav-link me-2" aria-current="page" href="./fav.html">收藏列表</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link hello" href="">Hello !</span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" onclick="logOut()">登出</a>
                     </li>
                 </ul>
             </div>
@@ -69,6 +80,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"
         integrity="sha512-zJYu9ICC+mWF3+dJ4QC34N9RA0OVS1XtPbnf6oXlvGrLGNB8egsEzu/5wgG90I61hOOKvcywoLzwNmPqGAdATA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./js/homepage.js"></script>
 
 
